@@ -59,18 +59,37 @@ body{
     margin: auto;
 	}
 .arrow{
-
+	position: relative;
 	width: 20%;
 }.arrow img{
-	
-	width: 45%;
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0; 
+    margin: auto;
 }
 .logo{
 	width: 60%;
 }
 .burger_icon{
-	margin-top: 3px;
+	position: relative;
 	width: 20%;
+}
+.burger_icon img{
+		max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    right: 0;
+    margin: auto;
+	}
 }
 .searchbar{
 	display: block;
@@ -90,18 +109,33 @@ body{
 	.arrow{
 		width: 20%;
 	}.arrow img{
-		padding-top: 14%;
-		width: 80%
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0; 
+    margin: auto;
 	}
 	.logo{
 		width: 60%;
 	}
 	.burger_icon{
-		display: block;
+		position: relative;
 		width: 20%;
 	}.burger_icon img{	
-		padding-top: 15%;
-		width: 80%;
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0; 
+    margin: auto;
+	}
 	}
 	.searchbar{
 	display: block;
