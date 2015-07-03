@@ -1,3 +1,5 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 @font-face {
     font-family: 'poetsen_oneregular';
     src: url('poetsenone-regular.eot');
@@ -39,11 +41,12 @@ body{
     margin: 0px;
     color: #ffffff;
 }
-.content{
+.content p{
+    font-weight: 100px;
     padding-bottom: 2em;
-    font-size: 2.5em;
-    text-align: justify;
-    font-family: 'poetsen_oneregular';
+    font-size: 3em;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
     margin: 1em;
 }
 @media only screen and (max-device-width: 420px) {  
