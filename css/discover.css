@@ -18,18 +18,6 @@ body{
 	height: 1500px;
 	margin: 50px 0px 10px 0px;
 }
-.navigation{
-	background-image: url(../images/transp_square.png);
-	width: 100%;
-	height: 10%;
-}
-.navigation div{
-	height: 100%;
-	display: block;
-	float: left;
-	clear: right;
-	text-align: center;
-}
 .plants{
 	background-color: white;
 	position: relative;
@@ -58,85 +46,21 @@ body{
     left: 15%; 
     margin: auto;
 	}
-.arrow{
-	position: relative;
-	width: 20%;
-}.arrow img{
-	max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 20px; 
-    margin: auto;
-}
-.logo{
-	width: 60%;
-}
-.burger_icon{
-	position: relative;
-	width: 20%;
-}
-.burger_icon img{
-		max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    right: 0;
-    margin: auto;
-	}
-}
-.searchbar{
+	.searchbar{
 	display: block;
 	margin-top: 3%;
 	width: 100%;
 	height: 7%;
 	background-image: url(../images/transp_square.png);
-}
-.lupa{
-	width: 10%;
-	height: 100%;
-	float: right !important;	
-}.lupa img{
-	height: 100%
-}
+	}
+	.lupa{
+		width: 10%;
+		height: 100%;
+		float: right !important;	
+	}.lupa img{
+		height: 100%
+	}
 @media only screen and (max-device-width: 420px) {
-	.arrow{
-		width: 20%;
-	}.arrow img{
-	max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 20px; 
-    margin: auto;
-	}
-	.logo{
-		width: 60%;
-	}
-	.burger_icon{
-		position: relative;
-		width: 20%;
-	}.burger_icon img{	
-	max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0; 
-    margin: auto;
-	}
-	}
 	.searchbar{
 	display: block;
 	margin-top: 3%;
