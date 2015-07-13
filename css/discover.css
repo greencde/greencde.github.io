@@ -46,6 +46,12 @@ body{
     left: 15%; 
     margin: auto;
 	}
+	.plants i{
+	font-family: 'poetsen_oneregular';
+	font-size: 0.55em;
+	color: #b4b4b4;
+
+	}
 	.searchbar{
 	display: block;
 	margin-top: 3%;
